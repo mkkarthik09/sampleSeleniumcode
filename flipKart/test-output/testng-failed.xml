@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="3" name="Failed suite [FlipKartLogin]">
+  <test name="LoginTest(failed)">
+    <classes>
+      <class name="FlipKartLogin.FlipKartLogin">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="openwebsite"/>
+          <include name="Valid"/>
+        </methods>
+      </class> <!-- FlipKartLogin.FlipKartLogin -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [FlipKartLogin] -->

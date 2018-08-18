@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FlipKartLogin" verbose="3"> 
+<test name="LoginTest">
+<!-- <groups>
+<run>
+<exclude name="InValidScenario" />
+</run>
+</groups>  -->
+<classes>
+<class name="FlipKartLogin.FlipKartLogin"/>
+
+</classes>
+</test>
+</suite>
