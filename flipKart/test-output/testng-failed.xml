@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="3" name="Failed suite [FlipKartLogin]">
-  <test name="LoginTest(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="FlipKartLogin.FlipKartLogin">
         <methods>
@@ -12,5 +12,5 @@
         </methods>
       </class> <!-- FlipKartLogin.FlipKartLogin -->
     </classes>
-  </test> <!-- LoginTest(failed) -->
-</suite> <!-- Failed suite [FlipKartLogin] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

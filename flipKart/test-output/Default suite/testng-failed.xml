@@ -6,10 +6,8 @@
       <class name="FlipKartLogin.FlipKartLogin">
         <methods>
           <include name="closebrowser"/>
-          <include name="Invalid"/>
           <include name="logout"/>
-          <include name="validpassword"/>
-          <include name="validusername"/>
+          <include name="openwebsite"/>
           <include name="Valid"/>
         </methods>
       </class> <!-- FlipKartLogin.FlipKartLogin -->

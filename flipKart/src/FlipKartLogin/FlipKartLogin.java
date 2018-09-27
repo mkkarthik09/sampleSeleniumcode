@@ -33,10 +33,10 @@ WebDriver driver;
 		//1. Valid username, Password
 		WebElement email=driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input"));
 		email.clear();
-		email.sendKeys("mk.karthik09@gmail.com");
+		email.sendKeys("Your Valid Username");
 		WebElement password=driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input"));
 		password.clear();
-		password.sendKeys("Whatever5833tttt");
+		password.sendKeys("Your Valid Password");
 		WebElement loginbutton=driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[3]/button"));
 		loginbutton.click();
 	}
@@ -60,10 +60,10 @@ WebDriver driver;
 		
 		WebElement email=driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input"));
 		email.clear();
-		email.sendKeys("mk.karthik09@gmail.com");
+		email.sendKeys("Your Valid Username");
 		WebElement password=driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input"));
 		password.clear();
-		password.sendKeys("12345");
+		password.sendKeys("Invalid Password");
 		WebElement loginbutton=driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[3]/button"));
 		loginbutton.click();
 	}
@@ -73,10 +73,10 @@ WebDriver driver;
 		
 		WebElement email=driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input"));
 		email.clear();
-		email.sendKeys("abc@gmail.com");
+		email.sendKeys("Invalid Username");
 		WebElement password=driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input"));
 		password.clear();
-		password.sendKeys("Whatever5833");
+		password.sendKeys("Your Valid Password");
 		WebElement loginbutton=driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[3]/button"));
 		loginbutton.click();
 	}
@@ -86,10 +86,10 @@ WebDriver driver;
 		
 		WebElement email=driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input"));
 		email.clear();
-		email.sendKeys("abc@gmail.com");
+		email.sendKeys("Invalid Username");
 		WebElement password=driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input"));
 		password.clear();
-		password.sendKeys("12345");
+		password.sendKeys("Invalid Password");
 		WebElement loginbutton=driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[3]/button"));
 		loginbutton.click();
 	}
