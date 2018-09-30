@@ -22,7 +22,7 @@ public class SearchFlipKart {
 		WebDriver driver=new ChromeDriver();
 		
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		
 		driver.get("https://www.flipkart.com/");
 		
@@ -47,6 +47,8 @@ public class SearchFlipKart {
 		searchbox.sendKeys("ozone facewash for mens");
 		searchbox.submit();
 		
+		WebElement searchbutton = driver.findElement(By.xpath("//*[@id='container']/div/header/div[1]/div/div/div/div[2]/form/div/div[2]/button/svg"));
+		searchbutton.click();
 		
 		
 		
